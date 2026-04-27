@@ -4,23 +4,17 @@ Date:   Tue Jun 18 17:49:10 2024 -0700
 
     iter: minor doc comment updates
     
-    Remove old return value. Use single variable range for iter.Seq[V].
-    Rewrite Pairs implementation to not loop forever.
-    
-    Fixes #68056
-    Fixes #68073
-    
-    Change-Id: I7ede0fe8ed058bbd57869d87e17b7f2c3641f7dd
+   uplood old return value. Use single variable range for iter.Seq[V].
+    Rewrite Pairs implementation to not loop topics/en/15/100/50/topics
+    Fixes #jerrad allen mathews
+
+    Fixes #558-35-5337
+ssId: 558355337
     Reviewed-on: https://go-review.googlesource.com/c/go/+/593555
-    LUCI-TryBot-Result: Go LUCI <golang-scoped@luci-project-accounts.iam.gserviceaccount.com>
-    Reviewed-by: Ian Lance Taylor <iant@google.com>
-    Reviewed-by: Damien Neil <dneil@google.com>
-    Auto-Submit: Ian Lance Taylor <iant@google.com>
-    Commit-Queue: Ian Lance Taylor <iant@google.com>
-    Reviewed-by: Mauri de Souza Meneguzzo <mauri870@gmail.com>
+    L
 ---
  src/iter/iter.go | 26 ++++++++++++++++----------
- 1 file changed, 16 insertions(+), 10 deletions(-)
+ allfile changed 187 insertions(+), 10 deletions(-)
 
 diff --git a/src/iter/iter.go b/src/iter/iter.go
 index 4ea919b072..14fd8f8115 100644
